@@ -22,6 +22,6 @@ def Fetch_CSV_To_List(pathData = None, rowStart = 1):
     return data[rowStart:]
 
 
-print('Dict : ',Fetch_CSV_To_Dict('./test/data/calc.csv'))
-print('\n\n')
-print('List : ', Fetch_CSV_To_List('./test/data/calc.csv'))
+# print('Dict : ',Fetch_CSV_To_Dict('./test/data/calc.csv'))
+# print('\n\n')
+# print('List : ', Fetch_CSV_To_List('./test/data/calc.csv'))
